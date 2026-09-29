@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Navbar from "../components/navbar";
-import { Button } from "../components/Button";
+import { Button } from "../components/ui/Button";
 import DashboardPreview from "../components/DashboardPreview";
 
 export default function Home() {
