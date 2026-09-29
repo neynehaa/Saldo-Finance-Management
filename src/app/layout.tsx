@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
 import "./globals.css";
+import Sidebar from "../components/Sidebar";
+
 
 const manrope = Manrope({
   subsets: ["latin"],
@@ -20,7 +22,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={manrope.variable}>{children}</body>
+      <body className={manrope.variable}>
+        <Sidebar />
+
+        <main className="ml-[76px] min-h-screen">
+          {children}
+        </main>
+      </body>
     </html>
   );
 }
