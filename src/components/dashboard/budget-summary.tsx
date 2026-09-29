@@ -23,7 +23,7 @@ export function BudgetSummary({
 
       <div className="h-1.5 rounded-full bg-[#E4E8E3] mt-3.5 overflow-hidden">
         <div
-          className="h-full rounded-full bg-[#123C2F]"
+          className="h-full rounded-full bg-[var(--primary)]"
           style={{ width: `${data.percentUsed}%` }}
         />
       </div>
@@ -37,7 +37,7 @@ export function BudgetSummary({
             <span className="text-white w-24">{cat.name}</span>
             <div className="flex-1 h-1.5 rounded-full bg-[#E4E8E3] mx-3 overflow-hidden">
               <div
-                className="h-full rounded-full bg-[#123C2F]"
+                className="h-full rounded-full bg-[var(--primary)]"
                 style={{ width: `${cat.percent}%` }}
               />
             </div>

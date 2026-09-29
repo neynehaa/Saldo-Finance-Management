@@ -49,7 +49,7 @@ export function SpendingChart({
           <Area
             dataKey="amount"
             type="monotone"
-            stroke="#477A65"
+            stroke="var(--primary)"
             strokeWidth={2.5}
             fill="#B9D98C"
             fillOpacity={0.16}
