@@ -27,7 +27,7 @@ export default function RootLayout({
       <body className={manrope.variable}>
         <Sidebar />
 
-        <main className="ml-[76px] min-h-screen">
+        <main className="ml-19 min-h-screen">
           {children}
         </main>
       </body>

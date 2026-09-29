@@ -35,7 +35,7 @@ export function SpendingChart({
         <span className="text-sm text-[#7B8580]">{monthLabel}</span>
       </div>
 
-      <ChartContainer config={chartConfig} className="h-[220px] w-full mt-4">
+      <ChartContainer config={chartConfig} className="h-55 w-full mt-4">
         <AreaChart data={trend} margin={{ left: 0, right: 0, top: 8 }}>
           <CartesianGrid vertical={false} stroke="#E4E8E3" />
           <XAxis
