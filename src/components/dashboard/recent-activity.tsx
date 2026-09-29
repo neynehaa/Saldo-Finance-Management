@@ -11,7 +11,7 @@ export function RecentActivity({
 }: RecentActivityProps) {
   return (
     <section>
-      <h2 className="text-xl font-bold text-[#17201C] mb-1">Recent activity</h2>
+      <h2 className="text-xl font-bold text-white mb-1">Recent activity</h2>
 
       <div>
         {transactions.map((tx, i) => (
@@ -22,12 +22,12 @@ export function RecentActivity({
             }`}
           >
             <div>
-              <div className="text-sm font-semibold text-[#17201C]">{tx.name}</div>
+              <div className="text-sm font-semibold text-white">{tx.name}</div>
               <div className="text-xs text-[#7B8580] mt-0.5">{tx.category}</div>
             </div>
             <div
               className={`text-sm font-bold tabular-nums ${
-                tx.type === "income" ? "text-[#477A65]" : "text-[#17201C]"
+                tx.type === "income" ? "text-[#477A65]" : "text-white"
               }`}
             >
               {tx.type === "income" ? "+" : "-"} Rs. {tx.amount.toLocaleString("en-IN")}

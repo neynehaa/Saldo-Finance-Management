@@ -31,7 +31,7 @@ export function SpendingChart({
   return (
     <section className="mt-14">
       <div className="flex items-baseline justify-between mb-1">
-        <h2 className="text-xl font-bold text-[#17201C]">Spending</h2>
+        <h2 className="text-xl font-bold text-white">Spending</h2>
         <span className="text-sm text-[#7B8580]">{monthLabel}</span>
       </div>
 
@@ -63,8 +63,8 @@ export function SpendingChart({
             key={cat.name}
             className="flex justify-between py-3.5 border-b border-[#E4E8E3] text-sm"
           >
-            <span className="text-[#17201C]">{cat.name}</span>
-            <span className="font-bold tabular-nums text-[#17201C]">
+            <span className="text-white">{cat.name}</span>
+            <span className="font-bold tabular-nums text-white">
               Rs. {cat.amount.toLocaleString("en-IN")}
             </span>
           </div>

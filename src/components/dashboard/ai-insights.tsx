@@ -18,7 +18,7 @@ export function AiInsight({
   return (
     <section className="mt-14 border-t border-[#E4E8E3] pt-7 flex flex-col md:flex-row justify-between items-start gap-6">
       <div>
-        <div className="flex items-center gap-2 font-bold text-sm text-[#17201C]">
+        <div className="flex items-center gap-2 font-bold text-sm text-white">
           <Sparkles className="h-4 w-4 text-[#477A65]" />
           Your money, summarized
         </div>
